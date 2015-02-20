@@ -1,0 +1,64 @@
+name: TECore
+main: tecore.TeCore
+version: 1
+commands:
+    setworld:
+        description: Set the world for the chest counter.
+        usage: /setworld <world>
+        permission: alert.admin
+        permission-message: LOL NOPE!!!
+    showworld:
+        description: Display the world that is set.
+        usage: /showworld
+        permission: alert.admin
+        permission-message: LOL NOPE!!!
+    countchests:
+        description: Shows the type and amount of chests on the world.
+        usage: /countchests
+        permission: alert.admin
+        permission-message: LOL NOPE!!!
+    reset:
+        description: Reset the chest count.
+        usage: /reset
+        permission: alert.admin
+        permission-message: LOL NOPE!!!
+    ignoreworld:
+        description: Stops logging the placement and interactions on the world.
+        usage: /ignoreworld <world>
+        permission: alert.admin
+        permission-message: LOL NOPE!!!        
+    logworld:
+        description: Starts logging the placement and interactions on the world.
+        usage: /logworld <world>
+        permission: alert.admin
+        permission-message: LOL NOPE!!!        
+    stafflist:
+        description: Lists staff & information about individuals.        
+    done:
+        description: Kicks yourself from the server if you're mad       
+    arrow:
+        description: Gives player an arrow.
+    autoflower:
+        description: populate field with grass and flowers
+        usage: /autoflower [radius] <chance> <flowerChance>
+        permission: autoflower.main
+        permission-message: you do not have permission to use /autoflower        
+    clearflower:
+        description: clear flowers in radius
+        usage: /clearflower [radius]
+        permission: autoflower.main
+        permission-message: You do not have permission to use /clearflower        
+    autosnow:
+        description: populate field with snow (level 1/level 2)
+        usage: /autosnow [radius]
+        permission: autoflower.main
+        permission-message: You do not have permission to use /autosnow
+    clearsnow:
+        description: clear snow in radius
+        usage: /clearsnow
+        permission: autoflower.main
+        permission-message: You do not have permission to use /clearsnow
+permissions:
+    autoflower.main:
+        description: allows use of /autoflower
+        default: op
