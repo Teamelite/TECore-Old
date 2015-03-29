@@ -1,6 +1,6 @@
 name: TECore
-main: tecore.TeCore
-version: 1
+main: io.teamelite.tecore.TeCore
+version: 2
 commands:
     setworld:
         description: Set the world for the chest counter.
