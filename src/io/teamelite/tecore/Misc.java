@@ -2,7 +2,6 @@ package io.teamelite.tecore;
 
 import static io.teamelite.tecore.Commands.a;
 import static io.teamelite.tecore.Commands.p;
-import static io.teamelite.tecore.Misc.prefix;
 import static org.bukkit.Bukkit.getServer;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
