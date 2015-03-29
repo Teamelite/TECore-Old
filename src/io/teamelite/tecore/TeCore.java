@@ -48,7 +48,7 @@ public class TeCore extends JavaPlugin {
         LogFile.logFile("Block place and interactions");
         
         for(Player p : Bukkit.getOnlinePlayers()) {
-        	TabListChanger.setHeaderAndFooter(p, ChatColor.DARK_RED + ChatColor.BOLD.toString() + "Team" + ChatColor.GOLD + "Elite" + ChatColor.RED + " Build Server", ChatColor.GOLD + ChatColor.BOLD.toString() + "http://www.mcteamelite.com");
+        	TabListChanger.setHeaderAndFooter(p, ChatColor.DARK_RED + ChatColor.BOLD.toString() + "Team" + ChatColor.GOLD + ChatColor.BOLD.toString() + "Elite" + ChatColor.RED + ChatColor.BOLD.toString() + " Build Server", ChatColor.GOLD + ChatColor.BOLD.toString() + "http://www.mcteamelite.com");
         }
         
     }

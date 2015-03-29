@@ -8,6 +8,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class PlayerJoin implements Listener {
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent e) {
-    	TabListChanger.setHeaderAndFooter(e.getPlayer(), ChatColor.DARK_RED + ChatColor.BOLD.toString() + "Team" + ChatColor.GOLD + "Elite" + ChatColor.RED + " Build Server", ChatColor.GOLD + ChatColor.BOLD.toString() + "http://www.mcteamelite.com");
+    	TabListChanger.setHeaderAndFooter(e.getPlayer(), ChatColor.DARK_RED + ChatColor.BOLD.toString() + "Team" + ChatColor.GOLD + ChatColor.BOLD.toString() + "Elite" + ChatColor.RED + ChatColor.BOLD.toString() + " Build Server", ChatColor.GOLD + ChatColor.BOLD.toString() + "http://www.mcteamelite.com");
 	}
 }
