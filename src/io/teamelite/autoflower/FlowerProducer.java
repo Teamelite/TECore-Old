@@ -6,7 +6,7 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
-import org.bukkit.craftbukkit.v1_8_R2.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_8_R1.block.CraftBlock;
 import org.bukkit.entity.Player;
 
 public class FlowerProducer {
